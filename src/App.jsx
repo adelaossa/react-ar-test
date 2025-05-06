@@ -73,7 +73,7 @@ const App = () => {
   return (
     <div>
       <h1>AR Marker Detector</h1>
-      <video ref={videoRef} style={{ width: '100%' }} />
+      <video ref={videoRef} style={{ display: 'none' }} />
       <canvas ref={canvasRef} style={{ width: '100%' }} />
     </div>
   );
